@@ -1,0 +1,44 @@
+
+
+============================== 2023-01-31 01:56:56.976464 | 067dca26-f80b-4077-ab99-d4aa14420933 ==============================
+[0m01:56:56.976464 [info ] [MainThread]: Running with dbt=1.4.1
+[0m01:56:56.978465 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\HarkiratSingh\\.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'project_name': 'poc_dbt', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m01:56:56.978465 [debug] [MainThread]: Tracking: tracking
+[0m01:56:56.996043 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024DA799C940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024DA1C0B910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024DA799C7F0>]}
+[0m01:56:56.998125 [debug] [MainThread]: Starter project path: C:\Users\HarkiratSingh\AppData\Local\Programs\Python\Python39\lib\site-packages\dbt\include\starter_project
+[0m01:58:25.964995 [info ] [MainThread]: Profile poc_dbt written to C:\Users\HarkiratSingh\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m01:58:25.966894 [info ] [MainThread]: 
+Your new dbt project "poc_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m01:58:25.966894 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024DA1C0B910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024DA79B4430>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024DA799C940>]}
+[0m01:58:25.967895 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2023-01-31 02:45:43.690662 | 6c198cf3-231b-4771-b827-d63be4c6bf39 ==============================
+[0m02:45:43.690662 [info ] [MainThread]: Running with dbt=1.4.1
+[0m02:45:43.696658 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\HarkiratSingh\\.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m02:45:43.698583 [debug] [MainThread]: Tracking: tracking
+[0m02:45:43.796999 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E6DC3428B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E6DC3429D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E6DC342730>]}
+[0m02:45:45.639378 [debug] [MainThread]: Executing "git --help"
+[0m02:45:45.762145 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m02:45:45.764536 [debug] [MainThread]: STDERR: "b''"
+[0m02:45:45.811368 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m02:45:45.814383 [debug] [MainThread]: Using snowflake connection "debug"
+[0m02:45:45.815459 [debug] [MainThread]: On debug: select 1 as id
+[0m02:45:45.816460 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m02:46:34.998237 [debug] [MainThread]: Flushing usage events
+[0m02:46:36.169655 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m02:46:36.173666 [info ] [MainThread]: ctrl-c
