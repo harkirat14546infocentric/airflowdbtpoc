@@ -19,3 +19,10 @@ models:
         tests:
           - unique
           - not_null
+  - name: empcity
+    description: "validating the city"
+    columns:
+      - name: city
+        description: "The primary key for this table"
+        tests:
+          - city_name

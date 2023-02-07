@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: secondempdata
+    description: "loading emp date"
+    columns:
+      - name: empid
+        description: "The primary key for this table"
+        tests:
+          - not_null
